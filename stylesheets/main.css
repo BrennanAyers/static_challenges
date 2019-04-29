@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: red;
+  background-color: #AA0000;
   color: white;
   padding: 10px;
 }
@@ -18,7 +18,7 @@ header a {
 }
 
 nav {
-  background-color: gray;
+  background-color: #333333;
   text-align: right;
   padding: 10px;
 }
@@ -51,17 +51,23 @@ section:after {
 }
 
 footer {
-  background-color: gray;
+  background-color: #333333;
   padding: 20px;
+  color: white;
 }
 
 h1 {
   font-size: 40px
 }
 
-h2 {
+aside h2 {
   font-size: 20px;
-  padding: 10 10 10 0;
+  padding: 0 10 10 0;
+}
+
+article h2 {
+  font-size: 20px;
+  padding: 20 10 10 30;
 }
 
 a:link {
@@ -71,6 +77,10 @@ a:link {
 
 article img {
   width: 1000px;
+}
+
+article p {
+  padding: 7 7 7 30;
 }
 
 aside img {
